@@ -18,7 +18,7 @@ const Register = () => {
       const response = await axios.post('http://localhost:4000/register', { email, password });
       Swal.fire(response.data.msg, "", "success");
 
-      navigate("/");  
+      navigate("/cuestionarios");  
     } catch (error) {
       console.log(error.message);
       Swal.fire('Error', 'Hubo un problema al registrar el usuario', 'error');
