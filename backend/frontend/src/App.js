@@ -10,7 +10,6 @@ function App() {
         <Route path="/" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cuestionarios" element={<Cuestionarios />} />
-        <Route path='/Charts' element={<div>HOla</div>}></Route>
       </Routes>
     </Router>
   );
